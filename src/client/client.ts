@@ -2,7 +2,7 @@ import * as THREE from 'three'
 // import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 import Stats from 'three/examples/jsm/libs/stats.module'
 import { TWEEN } from 'three/examples/jsm/libs/tween.module.min'
-import { io } from 'socket.io-client'
+// import { io } from 'socket.io-client'
 import Keyboard from './utils/keyboard';
 import { PointerLockControls } from './utils/pointerlockcontrols.js';
 
