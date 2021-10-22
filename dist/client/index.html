@@ -7,6 +7,11 @@
         body {
             overflow: hidden;
             margin: 0px;
+            padding: 0;
+        }
+
+        p {
+            display: block;
         }
 
         #pingStats {
@@ -34,14 +39,13 @@
             color: white;
             font-size: 200%;
         }
-
     </style>
 </head>
 
 <body>
     <div id="pingStats"></div>
     <div id="overlay">
-        <p>Big images loading...</p>
+        <p id="loading">Big images loading...</p>
         <h3>Click to move</h3>
     </div>
     <script type="module" src="bundle.js"></script>

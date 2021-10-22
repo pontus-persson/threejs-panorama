@@ -112,10 +112,11 @@ document.addEventListener('keydown', onKeyDown, false)
 
 
 
-
 const overlay = document.getElementById('overlay') as HTMLDivElement
+const loading = document.getElementById('loading') as HTMLDivElement
 overlay.addEventListener( 'click', function () {
     controls.lock();
+    loading.style.display = 'none';
 } );
 controls.addEventListener( 'lock', function () {
     overlay.style.display = 'none';
